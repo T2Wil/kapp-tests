@@ -16,6 +16,7 @@ var postManager = function () {
         li.appendChild(paragraph);
         ul.appendChild(li);
     });
+    
     container.insertAdjacentElement("afterbegin",ul);
 
 };
